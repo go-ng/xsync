@@ -1,0 +1,90 @@
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/xsync
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkBunchAllocator/structSize1/no_bunch-16         	155716078	         7.812 ns/op	       1 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1/bunch-16            	164380286	         7.594 ns/op	       1 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize8/no_bunch-16         	113116252	        10.54 ns/op	       8 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize8/bunch-16            	154153591	         7.767 ns/op	       9 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize32/no_bunch-16        	57436370	        18.14 ns/op	      32 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize32/bunch-16           	100118281	        11.86 ns/op	      37 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize256/no_bunch-16       	26410822	        44.75 ns/op	     256 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize256/bunch-16          	29543702	        37.71 ns/op	     288 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize1024/no_bunch-16      	 7878206	       172.7 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1024/bunch-16         	 5547594	       192.3 ns/op	    1055 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize65536/no_bunch-16     	  237046	      4344 ns/op	   65536 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize65536/bunch-16        	  223812	      5328 ns/op	   65548 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/xsync	19.508s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/xsync
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkBunchAllocator/structSize1/no_bunch-16         	160800836	         7.395 ns/op	       1 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1/bunch-16            	167618988	         7.059 ns/op	       1 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize8/no_bunch-16         	117864902	        10.28 ns/op	       8 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize8/bunch-16            	154717064	         7.722 ns/op	       9 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize32/no_bunch-16        	71113179	        16.78 ns/op	      32 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize32/bunch-16           	101336599	        11.73 ns/op	      37 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize256/no_bunch-16       	27933823	        44.30 ns/op	     256 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize256/bunch-16          	34539374	        32.38 ns/op	     288 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize1024/no_bunch-16      	 7999450	       152.2 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1024/bunch-16         	 6008107	       182.7 ns/op	    1055 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize65536/no_bunch-16     	  319184	      4139 ns/op	   65536 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize65536/bunch-16        	  226807	      5498 ns/op	   65570 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/xsync	21.544s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/xsync
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkBunchAllocator/structSize1/no_bunch-16         	154518054	         8.010 ns/op	       1 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1/bunch-16            	167437124	         7.606 ns/op	       1 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize8/no_bunch-16         	105492488	        10.55 ns/op	       8 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize8/bunch-16            	152834802	         9.265 ns/op	       9 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize32/no_bunch-16        	72446330	        16.62 ns/op	      32 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize32/bunch-16           	97915386	        12.05 ns/op	      37 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize256/no_bunch-16       	23984800	        46.04 ns/op	     256 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize256/bunch-16          	32376490	        32.71 ns/op	     288 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize1024/no_bunch-16      	 8302086	       149.8 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1024/bunch-16         	 5627259	       199.1 ns/op	    1056 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize65536/no_bunch-16     	  321282	      3997 ns/op	   65536 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize65536/bunch-16        	  232041	      5166 ns/op	   65538 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/xsync	21.703s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/xsync
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkBunchAllocator/structSize1/no_bunch-16         	159188224	         7.568 ns/op	       1 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1/bunch-16            	166080880	         7.390 ns/op	       1 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize8/no_bunch-16         	119047904	        10.44 ns/op	       8 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize8/bunch-16            	154962784	         7.976 ns/op	       9 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize32/no_bunch-16        	71432145	        16.82 ns/op	      32 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize32/bunch-16           	101877994	        11.61 ns/op	      37 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize256/no_bunch-16       	25169948	        43.47 ns/op	     256 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize256/bunch-16          	34614614	        31.50 ns/op	     288 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize1024/no_bunch-16      	 7786462	       154.2 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1024/bunch-16         	 6133492	       189.2 ns/op	    1056 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize65536/no_bunch-16     	  325674	      3754 ns/op	   65536 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize65536/bunch-16        	  219171	      5472 ns/op	   65557 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/xsync	21.339s
+goos: linux
+goarch: amd64
+pkg: github.com/go-ng/xsync
+cpu: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+BenchmarkBunchAllocator/structSize1/no_bunch-16         	148382144	         7.315 ns/op	       1 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1/bunch-16            	168239392	         7.056 ns/op	       1 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize8/no_bunch-16         	116833052	        10.59 ns/op	       8 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize8/bunch-16            	154385325	         7.704 ns/op	       9 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize32/no_bunch-16        	73350638	        16.51 ns/op	      32 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize32/bunch-16           	98201300	        12.50 ns/op	      37 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize256/no_bunch-16       	26507209	        45.04 ns/op	     256 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize256/bunch-16          	38906161	        31.04 ns/op	     288 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize1024/no_bunch-16      	 8270390	       151.6 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize1024/bunch-16         	 6116454	       187.2 ns/op	    1056 B/op	       0 allocs/op
+BenchmarkBunchAllocator/structSize65536/no_bunch-16     	  316161	      5540 ns/op	   65536 B/op	       1 allocs/op
+BenchmarkBunchAllocator/structSize65536/bunch-16        	  197175	      5605 ns/op	   65634 B/op	       0 allocs/op
+PASS
+ok  	github.com/go-ng/xsync	23.098s
